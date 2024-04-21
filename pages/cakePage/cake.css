@@ -74,6 +74,9 @@
 }
 .product .product_list_item .product-description .product_text{
     font-size: 16px;
+    overflow: hidden;
+    height: 50px;
+    text-overflow: ellipsis;
 }
 .product .product_list_item .product-description .product_price{
     font-weight: 500;
@@ -84,9 +87,6 @@
 }
 .product .product_list_item .product-description .product_text, .product_price{
     padding: 0 20px;
-    overflow: hidden;
-    height: 50px;
-    text-overflow: ellipsis !important;
 }
 .product .product_list .product_page .btn{
     font-size: 16px;
